@@ -1,0 +1,12 @@
+.listStyle {
+    list-style: none;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: auto;
+    min-height: 50px;
+    padding: 1rem;
+    line-height:1.5rem;
+    text-align: left;
+    box-shadow: 5px 5px 3px 0px rgb(185, 210, 233);
+    margin: .5rem 0;
+}

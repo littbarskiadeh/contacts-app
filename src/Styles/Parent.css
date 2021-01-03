@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: auto;
+    height: 90vh;
+    overflow-y: auto;
+    border: 0.2rem solid #e1fbff;
+    border-radius: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    font-size: 15px;
+    border-radius:3rem;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    text-align: center;
+    box-shadow: 1px 1px 3px 0px rgb(185, 210, 233);
+    margin-top: .3rem;
+    text-transform: capitalize;
+}
+
+.search-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+input:focus {
+    border: 1px solid aqua
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-inputs h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(12, 39, 39);
+}
+
+.row {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+    
+    /* align-content: space-between; */
+}
+
+.row button {
+    margin: 10px;
+    width: 150px;
+    border-radius: .5rem;
+    padding: .3rem;
+    background-color: #29414d;
+    color: #fff;
+    outline: none;
+}
+
+hr {
+    border: .1rem solid black;
+    padding: 0;
+    margin: 0
+}
+
+.top {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width: auto;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+
+}
